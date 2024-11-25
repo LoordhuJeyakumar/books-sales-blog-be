@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import app from "./app.js";
 
-dotenv.config();
+//dotenv.config();
 const port = process.env.PORT || 3333;
 
 /* const DB = process.env.DATABASE.replace(
@@ -11,6 +11,7 @@ const port = process.env.PORT || 3333;
 ) */
 
 const DB = process.env.DATABASE;
+
 
 mongoose
   .connect(DB, {
