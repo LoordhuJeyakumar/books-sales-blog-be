@@ -31,7 +31,11 @@ app.use(helmet());
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001"],
+    origin: [
+      "http://localhost:3000",
+      "http://localhost:3001",
+      "https://books-sales-blog-fe.vercel.app",
+    ],
 
     credentials: true,
     maxAge: 30 * 24 * 60 * 60,
