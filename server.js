@@ -1,6 +1,8 @@
+import dotenv from "dotenv";
 import mongoose from "mongoose";
 import app from "./app.js";
 
+dotenv.config();
 const port = process.env.PORT || 3333;
 
 /* const DB = process.env.DATABASE.replace(
