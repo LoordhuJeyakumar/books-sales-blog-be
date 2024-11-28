@@ -35,6 +35,7 @@ app.use(
       "http://localhost:3000",
       "http://localhost:3001",
       "https://books-sales-blog-fe.vercel.app",
+      "https://book-sales-blog.netlify.app/",
     ],
 
     credentials: true,
